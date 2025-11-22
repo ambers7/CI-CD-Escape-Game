@@ -3,6 +3,6 @@ jobs:
   build_test:
     runs-on: ubuntu-latest
   steps:
-    - uses: actions/checkout@v3
-    - run: npm install
-    - run: npm test
+    uses: actions/checkout@v3
+    run: npm install
+    run: npm test
